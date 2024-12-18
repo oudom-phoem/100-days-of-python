@@ -1,5 +1,5 @@
 import turtle
-import pandas
+import pandas # type: ignore
 
 screen = turtle.Screen()
 screen.getcanvas().winfo_toplevel().attributes('-topmost', 1)
